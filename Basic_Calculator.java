@@ -78,8 +78,8 @@ public class WCUCalc extends JFrame{
       BTAN=new JButton("tan");
       BSQRT=new JButton("√");
       BFACT=new JButton("!");
-      BREC=new JButton(" 1/x");
-      BSQRD=new JButton("x^2");
+      BREC=new JButton(" 1/");
+      BSQRD=new JButton("^2");
       BLOG=new JButton("log");   
                 //Allows clicking action of Buttons
       BMULT.addActionListener(new Calculate());
@@ -172,7 +172,7 @@ public class WCUCalc extends JFrame{
             else if (symbol.equals("*")){
                sum= (Double.parseDouble(input1) * Double.parseDouble(input2));
             }
-            else if (symbol.equals("x^2")){
+            else if (symbol.equals("^2")){
                sum = (Double.parseDouble(input1) * Double.parseDouble(input1));
             }
             else if (symbol.equals("!")){
@@ -230,7 +230,7 @@ public class WCUCalc extends JFrame{
                else if (symbol.equals("*")){
                   sum=(Double.parseDouble(input1)*Double.parseDouble(input2));
                }
-               else if (symbol.equals("x^2")){
+               else if (symbol.equals("^2")){
                   sum = (Double.parseDouble(input1) * Double.parseDouble(input1));
                }
                else if (symbol.equals("!")){
