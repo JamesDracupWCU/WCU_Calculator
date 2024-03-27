@@ -1,5 +1,5 @@
 ## Calculator ##
-Made this Calculator during my 2nd year of Computer Science. 
+Made this Calculator during my 1st full semester of Computer Science (Comp. Sci. II) . 
 Does basic arithmetic and trigonometric calculations.
 Also some additional functions: Factorial, Squareroots, and reciprocal.
 (Future work on improving code further)
